@@ -1,0 +1,35 @@
+.privacypolicy{
+    width: 100%;
+    color: white;
+}
+.privacypolicy_container{
+    margin: 20px 15px;
+    padding: 20px;
+}
+.privacypolicy_contents{
+    padding: 20px;
+    margin: 8px;
+}
+.privacypolicy_contents > h5{
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.privacypolicy_contents>p{
+    color: gray;
+    font-weight: 570;
+}
+.privacypolicy_stats{
+    margin: 20px;
+    padding-top: 30px;
+    width: 60%;
+}
+.privacypolicy_stats > p{
+    color: gray;
+}
+.privacypolicy_images{
+    padding-left: 500px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}

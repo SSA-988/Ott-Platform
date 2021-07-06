@@ -1,0 +1,37 @@
+.row{
+    color: white;
+}
+.row_thumbnails{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+.row_poster{
+    /* display: flex; */
+    max-height: 200px;
+    padding: 10px;
+    z-index: 999;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.row > h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.row_poster:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    transition: 0.8s;
+}
+.row_info{
+    display: flex;
+    white-space: nowrap;
+    
+}
+.row_info > h2{
+    margin-left: 20px;
+}

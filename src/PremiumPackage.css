@@ -1,0 +1,33 @@
+.premiumPackage{
+    max-width: 300px;
+    padding: 135px;
+    margin-left: auto; 
+    margin-right: auto;
+    position:absolute;
+    left:650px;
+    top:200px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.premiumPackage > form {
+    display:grid;
+    flex-direction: column;
+    position:absolute;
+    left:50px;
+    bottom:45px;
+    display: grid;
+    flex-direction: column;
+}
+.premiumPackage > form > button {
+    padding: 10px 20px;
+    outline:none;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(173, 33, 33);
+    color:whitesmoke;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 20px;
+}
+form > h2{
+    margin-bottom: 14px;
+}

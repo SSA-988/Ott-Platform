@@ -1,0 +1,107 @@
+ .banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: contain;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.banner_contents{
+    display: flex;
+    flex-direction: column;
+}
+.banner_title{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.banner_buttons{
+    display: flex;
+    outline: none;
+    padding: 8px;
+    margin: 12px;
+}
+.banner_button{
+    text-align: center;
+    padding-left: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: rgba(168, 151, 151, 0.5);
+}
+.banner_button:hover{
+    color:#000 ;
+    background-color: rgb(182, 211, 20);
+    transition: all 0.3s;
+}
+.banner_overview{
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 12px;
+    margin-left: 20px;
+    max-width: 360px;
+}
+ .banner_stats{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 18px;
+} 
+.banner_releasedate{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px;
+    margin-right: 6px;
+}
+.banner_options{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.banner_option{
+    font-size: 16px;
+    color: rgb(240, 224, 224);
+    font-weight: 800;
+    padding: 4px;
+    margin-left: 34px;
+    max-width: 60px;
+}
+.banner_option:hover{
+    color: white;
+}
+.banner_options .MuiSvgIcon-root{
+    color: gray;
+}
+.banner_option_two{
+    font-size: 16px;
+    color: rgb(240, 224, 224);
+    font-weight: 800;
+    padding: 4px;
+    margin-left: 10px;
+}
+.banner_option_two:hover{
+    color: white;
+}
+.banner_voteCount{
+    margin: 6px;
+    display: flex;
+    align-items: center;
+}
+.banner_icon{
+    margin: 6px;
+}

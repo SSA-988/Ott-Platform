@@ -1,0 +1,131 @@
+.subscription{
+    display: grid;
+    place-items: center;
+}
+.subscription_plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px 8px;
+}
+.subscription_plans >h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.subscription_plans>img{
+    width: 220px;
+    height: 100px;
+}
+.subscription_packages{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 20px;
+}
+.subscription_packages > h2{
+
+    padding: 20px;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+.subscription_vip{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+   background-color: #240090;
+    border-radius: 3px;
+    border-width: 0.2px;
+}
+.subscription_vip > img{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    
+}
+.subscription_premium{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #240090;
+    border-radius: 3px;
+    /* border: 1px solid lightgray; */
+    border-width: 0.2px;
+}
+.subscription_premium > img{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+.subscription_premium:hover{
+    background-color: #2F2FA2;
+    /* transform: scale(1.07);
+    transition: all 0.2s ease; */
+}
+.subscription_vip:hover{
+    background-color: #2F2FA2;
+    /* transform: scale(1.07);
+    transition: all 0.2s ease; */
+}
+.subscription_Contents{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 14px 22px;
+    padding: 26px;
+}
+.subscription_plan >h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.subcription_plan{
+    margin: 10px 20px;
+}
+.subcription_planVip{
+    cursor: pointer;
+    margin-left: 40px;
+    background-color: #2F2FA2;
+    border-radius: 10px; 
+    padding: 40px;
+    
+}
+.subcription_planPremium{
+    cursor: pointer;
+    margin-left: 40px;
+    background-color: #2F2FA2;
+    padding: 20px;
+    padding: 40px;
+    border-radius: 10px; 
+    
+}
+.subcription_planPremium:hover{
+    transform: scale(1.07);
+    transition: all 0.2s ease;
+}
+.subcription_planVip:hover{
+    transform: scale(1.07);
+    transition: all 0.2s ease;
+}
+.subscription_plancost > span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.subscription_planfeaturesContent{
+    display: flex;
+    align-items: center;
+}
+.subscription_planfeaturesContent > h3{
+    margin-right: 6px;
+}
+.subscription_planfeaturesContent > .MuiSvgIcon-root{
+    color: rgb(2, 236, 2) !important;
+    font-size: 24px !important;
+    font-weight: 750 !important;
+}

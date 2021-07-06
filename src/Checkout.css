@@ -1,0 +1,66 @@
+.checkout{
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.checkout_info{
+    display: grid;
+    place-items: center;
+}
+.checkout_info > h2{
+    margin-top: 80px;
+    color: white;
+}
+.checkout_info > p{
+    color: white;
+    font-size: 19px;
+    margin-top: 40px;
+}
+.checkout_info > h3{
+    color: white;
+    margin-top: 80px;
+}
+.checkout_info > p >span{
+    text-decoration: underline;
+    cursor: pointer;
+    color: gray;
+}
+.checkout_info > p >span:hover{
+    color: rgb(201, 188, 188);
+}
+.checkout_button{
+    padding-left: 65px;
+}
+.checkout_button > button{
+    width: 250px;
+    color: white;
+    background-color: rgb(204, 66, 51);
+    margin: 60px 75px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.checkout_button > button:hover{
+    background-color: rgb(199, 29, 10);
+}
+.checkout_stats>p{
+    color:  rgb(73, 71, 71);;      
+}
+.checkout_stats{
+    margin: 20px;
+    padding-top: 30px;
+    padding-left: 30px; 
+    width: 60%;
+}
+.checkoutimages{
+    margin: 10px 25px;
+    padding-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.checkout_appstore{
+    height: 70px;
+    width: 190px;
+}
