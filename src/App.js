@@ -13,6 +13,7 @@ import { login, logout, selectUser } from "./features/appSlice";
 import React, { useEffect } from "react";
 import {auth }from './firebase';
 import { useAuthState } from "react-firebase-hooks/auth";
+import Boxes from "./Boxes";
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
               <div className="app_body">
                 <Header />
                 <Banner />
+                <Boxes/>
                 <MainScreen />)
               </div>
             </Route>

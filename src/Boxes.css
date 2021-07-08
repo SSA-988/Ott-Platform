@@ -1,0 +1,111 @@
+.boxes{
+    padding:20px;
+    margin-top: 30px;
+    display:grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    color:white;
+    margin-left: 15px;
+    margin-right:15px;
+    
+}
+.boxes_imageHover{
+    display:none;
+}
+.boxes_img1 > img {
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor: pointer;  
+
+}
+.boxes_img1{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit:contain;
+    border-radius: 10px;
+    border: 3px solid rgba(249,249,249,0.1);
+    transition:all 250ms cubic-bezier(0.25,0.46,0.45,0.94)0s;
+}
+.boxes_img1:hover{
+    transform: scale(1.05);
+    border-color: rgba(249,249,249,0.8);
+    background-image: url("https://i.pinimg.com/736x/12/40/38/124038a374bd6eb49c5a28dab0f40b0a.jpg") ;
+}
+.boxes_img2 > img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor: pointer;  
+}
+.boxes_img2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit:contain;
+    border-radius: 10px;
+    border: 3px solid rgba(249,249,249,0.1);
+    transition:all 250ms cubic-bezier(0.25,0.46,0.45,0.94)0s;
+}
+.boxes_img2:hover{
+    transform: scale(1.05);
+    border-color: rgba(249,249,249,0.8);
+    background-image: url("https://i.pinimg.com/originals/cd/4d/66/cd4d663c0fffb99fb824fc6f876b67c1.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+.boxes_img3 > img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor: pointer;  
+}
+.boxes_img3{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit:contain;
+    border-radius: 10px;
+    border: 3px solid rgba(249,249,249,0.1);
+    transition:all 250ms cubic-bezier(0.25,0.46,0.45,0.94)0s;
+}
+.boxes_img3:hover{
+    transform: scale(1.05);
+    border-color: rgba(249,249,249,0.8);
+    background-image: url("https://feshionindia.com/wp-content/uploads/2021/06/Danai-Gurira-Black-Panther-star-will-return-in-the-upcoming-marvel-Disney-plus-show-12-800x445.png");
+    background-repeat: no-repeat;
+   
+}
+.boxes_img4 > img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor: pointer;  
+}
+.boxes_img4{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit:contain;
+    border-radius: 10px;
+    border: 3px solid rgba(249,249,249,0.1);
+    transition:all 250ms cubic-bezier(0.25,0.46,0.45,0.94)0s;
+}
+.boxes_img4:hover{
+    transform: scale(1.05);
+    border-color: rgba(249,249,249,0.8);
+    background-image: url("https://collider.com/wp-content/uploads/2020/05/star-wars-disney-plus-may-the-4th-poster.jpeg");
+    background-position: cover;
+}
+.boxes_img5 > img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    cursor: pointer;  
+}
+.boxes_img5{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit:contain;
+    border-radius: 10px;
+    border: 3px solid rgba(249,249,249,0.1);
+    transition:all 250ms cubic-bezier(0.25,0.46,0.45,0.94)0s;
+}
+.boxes_img5:hover{
+    transform: scale(1.05);
+    border-color: rgba(249,249,249,0.8);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdB7IycgZOp9GMZuB4Xbh2xtm-wKe1dMRxMqowLyaMef_-rZBkZru56TJkH6OcUN6OAE&usqp=CAU");
+    background-position: cover;
+}
