@@ -20,10 +20,10 @@ function Row({ title, getUrl, bigThumbnail }) {
       <div className="row_thumbnails">
         {films.map((film, data) => (
           <img
-            className={`row_poster ${bigThumbnail && "row_posterlarge"}`}
+            className="row_poster"
             key={film.id}
             src={`${base_url}${
-              bigThumbnail ? film.poster_path : film.backdrop_path
+               film.backdrop_path
             }`}
             alt=""
           />

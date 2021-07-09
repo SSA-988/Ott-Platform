@@ -24,8 +24,8 @@ function Banner() {
 
   console.log(movie);
 
-  function truncate(string, n) {
-    return string?.length > n ? string.substr(0, n - 1) + "..." : string;
+  function truncate(string) {
+    return string?.length > 150 ? string.substr(0, 150) + "..." : string;
   }
 
   return (
@@ -45,7 +45,7 @@ function Banner() {
         <button className="banner_button">WatchList</button>
       </div>
       <div className="banner_overview">
-        <h2 className="banner_overview">{truncate(movie?.overview, 140)}</h2>
+        <h2 className="banner_overview">{truncate(movie?.overview)}</h2>
       </div>
       <div className="banner_stats">
         <h2 className="banner_releasedate">{movie.release_date}</h2>
