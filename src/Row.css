@@ -35,3 +35,22 @@
 .row_info > h2{
     margin-left: 20px;
 }
+@media screen and (max-width:800px){
+  .row_poster{
+    width:160px;
+    object-fit:contain;
+  }
+  .row > h2{
+    font-size:16px;
+  }
+  .row_poster:hover{
+    color: none;
+    background-color:none;
+  }
+  .row_thumbnails{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+}
+}

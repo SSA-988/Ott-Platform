@@ -66,3 +66,61 @@
 .login_buttonn{
     margin-top:12px !important;
 }
+@media screen and (max-width:768px){
+  .login_container{
+    padding: 100px;
+    text-align: center;
+    background-color: #0f0f47;
+    border-radius: 10px ;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+}
+@media screen and (max-width:710px){
+  .login_container{
+    padding:0;
+    box-shadow:none;
+    width:100% !important;
+    height:100% !important;
+    margin-top: 250px !important ;
+  }
+  .login_container>img{
+    object-fit: contain;
+    height:120px;
+    margin-top: 20px !important;
+    width:150px;
+}
+.login_container > h1{
+    font-size:20px;
+    margin-bottom: 20px !important;
+}.login_buttons > button{
+    width:170px !important;
+    text-transform: inherit !important;
+    background-color: #003483 !important;
+    margin-left: 100px !important;
+    margin-bottom: 60px !important;
+}
+.login{
+    background-color: #171e47;
+   
+}
+}
+
+@media screen and (max-width:790px){
+  .login_buttons > button{
+    width:170px !important;
+    text-transform: inherit !important;
+    background-color: #003483 !important;
+    margin-left: 88px !important;
+    margin-bottom: 60px !important;
+  }
+}
+
+@media screen and (max-width:450px){
+  .login_buttons > button{
+    width:170px !important;
+    text-transform: inherit !important;
+    background-color: #003483 !important;
+    margin-left: 90px !important;
+    margin-bottom: 60px !important;
+  }
+}

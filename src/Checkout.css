@@ -64,3 +64,42 @@
     height: 70px;
     width: 190px;
 }
+@media screen and (max-width:980px){
+  .checkout_info>h2{
+    font-size:18px;
+    text-align: center !important;
+     margin-left: 25px;
+    margin-right: 25px;
+  }
+  .checkout_info > p{
+    margin-left: 25px;
+    margin-right: 25px;
+    width:fit-content;
+    font-size:16px;
+    font-weight:bold;
+    text-align: center !important;
+  }
+  .checkout_info > h3{
+      font-size:18px;
+       text-align: center !important;
+        margin-left: 25px;
+    margin-right: 25px;
+  }
+  .checkout{
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width:680px){
+  .checkout_button > button{
+      width:120px !important;
+      font-size:14px;
+  }
+  .checkout_info{
+      display: inline-block;
+  }
+   .checkout_button > button{
+      width:120px !important;
+      margin-left: 70px !important;
+  }
+}

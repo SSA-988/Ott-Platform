@@ -129,3 +129,16 @@
     font-size: 24px !important;
     font-weight: 750 !important;
 }
+@media screen and (max-width:1080px){
+  .subscription_Contents{
+      display: flex !important;
+      flex-direction: column;
+      /* padding-bottom: 40px !important;
+      padding-top: 40px !important; */
+      padding-right: 50px !important;
+  }
+  .subcription_planVip{
+     margin-bottom: 40px !important;
+  }
+}
+

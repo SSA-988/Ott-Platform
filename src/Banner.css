@@ -105,3 +105,46 @@
 .banner_icon{
     margin: 6px;
 }
+@media screen and (max-width:800px){
+  .banner{
+    width:820px;
+    object-fit:contain;
+    height:330px;
+  }
+  .backgroundImage{
+    width:420px;
+    object-fit:contain;
+    height:130px;
+  }
+  .banner_options{
+    display:none;
+  }
+  .banner_title{
+    font-size:19px;
+    margin-right: 16px;
+  }
+  /* .banner_overview{
+      display:none;
+  } */
+  .banner_stats{
+      margin-bottom: 20px !important;
+  }
+}
+@media screen and (max-width:530px){
+   .banner_overview{
+      display:none;
+  } .banner{
+      min-width:100%;
+  }
+  }
+
+  @media screen and (max-width:530px){
+   .banner_stats{
+      display:none;
+  }.banner{
+      height:auto;
+      width:100%;
+      object-fit:contain;
+  }
+  } 
+  

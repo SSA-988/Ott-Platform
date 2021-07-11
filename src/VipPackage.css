@@ -32,3 +32,23 @@ form > h2{
     margin-bottom: 14px;
    
 }
+@media screen and (min-width:575px){
+  .vipPackage{
+  width: 150px;
+  height: 100px;
+  margin-left: auto; 
+  margin-right: auto;
+  position:relative;
+  right:650px !important;
+  top:200px !important;
+  width: 100%;
+  
+  }
+  .vipPackage > form{
+    position:relative;
+    right:150px;
+    bottom:45px;
+    display: grid;
+    flex-direction: column;
+  }
+}

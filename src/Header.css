@@ -154,3 +154,60 @@
     display: block;
     transition-duration: 0.2s all ease-in;
 }
+
+@media screen and (max-width:1287px){
+  .header_right > input {
+      display: none;
+  }
+ /* .header_leftdropdown h2{
+    display:none;
+ } */
+ /* .header_left > h2{
+    display:none
+ }
+ .header_leftdropdown > h2{
+    display:none
+ } */
+ .header_kids{
+    display:none
+ }
+ .header_userAvatar{
+     display:block;
+ }
+ /* .header_user >h4{
+     display:none;
+ } */
+}
+
+@media screen and (max-width:414px){
+  .header_right > input {
+      display: none;
+  }
+  .header_left > h2{
+    display:none
+ }
+ .header_leftdropdown > h2{
+    display:none
+ }
+ .header_kids{
+    display:none
+ }
+}
+
+@media screen and (max-width:940px){
+  .header_user >h4{
+    display:none;
+ } 
+}
+
+@media screen and (max-width:800px){
+  .header_leftdropdown h2{
+    display:none;
+ } 
+  .header_left > h2{
+    display:none
+ }
+ .header_leftdropdown > h2{
+    display:none
+ } 
+ } 

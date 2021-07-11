@@ -109,3 +109,16 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdB7IycgZOp9GMZuB4Xbh2xtm-wKe1dMRxMqowLyaMef_-rZBkZru56TJkH6OcUN6OAE&usqp=CAU");
     background-position: cover;
 }
+
+
+@media screen and (max-width:414px){
+ .boxes_img1{
+     width:100%;
+     object-fit: contain;
+ }
+}
+@media screen and (max-width:800px){
+  .boxes{
+    display:none
+  }
+}

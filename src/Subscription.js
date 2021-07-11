@@ -32,11 +32,6 @@ function Subscription() {
       <div className="subscription_packages">
         <div className="subscription_vip">
           <h2
-          // onClick={
-          //   // push();
-          //   // login();
-
-          // }
           onClick={()=>setOpen(true)}
           >
             {/* history.push("/Checkout") */}
