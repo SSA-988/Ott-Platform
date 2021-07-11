@@ -71,8 +71,10 @@
     padding: 100px;
     text-align: center;
     background-color: #0f0f47;
-    border-radius: 10px ;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .login{
+       height:731px;
   }
 }
 @media screen and (max-width:710px){
@@ -100,7 +102,7 @@
     margin-bottom: 60px !important;
 }
 .login{
-    background-color: #171e47;
+    background-color: #0f0f47;
    
 }
 }
