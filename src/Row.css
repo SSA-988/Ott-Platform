@@ -19,6 +19,7 @@
 .row > h2{
     margin-top: 10px;
     margin-left: 10px;
+    font-size: 25px ;
 }
 .row_poster:hover{
     transform: scale(1.05);
