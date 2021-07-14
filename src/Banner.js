@@ -6,6 +6,9 @@ import requests from "./Requests";
 import axios from "./axios";
 import ShareIcon from "@material-ui/icons/Share";
 import CreateIcon from "@material-ui/icons/Create";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import FacebookIcon from "@material-ui/icons/Facebook";
 
 function Banner() {
   const [movie, setMovie] = useState([]);
@@ -54,11 +57,20 @@ function Banner() {
           {movie.vote_count}
         </div>
       </div>
-      <div className="banner_options">
-        <h2 className="banner_option">Share</h2>
-        <ShareIcon />
-        <h2 className="banner_option_two">Reviews</h2>
-        <CreateIcon />
+      <div className="bannerOptionss">
+        <div className="banner_options">
+          <h2 className="banner_option">Share</h2>
+          <div className="banner_dropdown">
+            <InstagramIcon className="banner_icons" fontSize="large" />
+            <WhatsAppIcon className="banner_icons1" fontSize="large" />
+            <FacebookIcon className="banner_icons2" fontSize="large" />
+          </div>
+          <ShareIcon className="bannerShareIcon" />
+        </div>
+        <div className="bannerSoptions">
+          <h2 className="banner_option_two">Reviews</h2>
+          <CreateIcon />
+        </div>
       </div>
     </div>
   );

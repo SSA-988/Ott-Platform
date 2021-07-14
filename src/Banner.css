@@ -77,8 +77,8 @@
     font-size: 16px;
     color: rgb(240, 224, 224);
     font-weight: 800;
-    padding: 4px;
-    margin-left: 34px;
+    /* padding: 4px; */
+    /* margin-left: 34px; */
     max-width: 60px;
 }
 .banner_option:hover{
@@ -105,30 +105,71 @@
 .banner_icon{
     margin: 6px;
 }
-@media screen and (max-width:800px){
-  .banner{
-    width:820px;
-    object-fit:contain;
-    height:330px;
-  }
-  .backgroundImage{
-    width:420px;
-    object-fit:contain;
-    height:130px;
-  }
-  .banner_options{
-    display:none;
-  }
-  .banner_title{
-    font-size:19px;
-    margin-right: 16px;
-  }
-  /* .banner_overview{
-      display:none;
-  } */
-  .banner_stats{
-      margin-bottom: 20px !important;
-  }
+
+.banner_dropdown{
+    display:none; 
+    position: absolute;
+    left:55px;
+    bottom:43px;
+    background-color: #0e1a30;
+    border-radius: 8px;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.banner_options{
+    margin:0px 20px;
+}
+ .banner_options > h2{
+    margin:12px 10px;
+    
+}
+.bannerShareIcon{
+    margin-left: -4px !important;
+}
+.banner_option{
+    margin-left: 20px !important;
+}
+.bannerOptionss{
+    display: flex;
+    align-items: center;
+    margin-right: -40px !important;
+} 
+ .banner_options:hover .banner_dropdown{
+    display:flex;
+}
+.banner_icons{
+    padding: 12px 14px;
+    text-decoration: none;
+    display:flex;
+}
+.banner_icons1{
+ padding: 12px 14px;
+    text-decoration: none;
+    display:flex;
+}
+.banner_icons2{
+ padding: 12px 14px;
+    text-decoration: none;
+    display:flex;
+}
+.bannerSoptions{
+    display: flex;
+    align-items: center;
+    margin-right: 25px !important;
+}
+.bannerSoptions > .MuiSvgIcon-root{
+    color: gray !important;
+}
+.banner_icons:hover{
+    color: #d6249f;
+    border-radius: 7px;
+}
+.banner_icons1:hover{
+    color: #25d366;
+}
+.banner_icons2:hover{
+    color:#3b5998;
 }
 @media screen and (max-width:530px){
    .banner_overview{
@@ -148,3 +189,31 @@
   }
   } 
   
+  @media screen and (max-width:800px){
+  .banner{
+    width:820px;
+    object-fit:contain;
+    height:330px;
+  }
+  .backgroundImage{
+    width:420px;
+    object-fit:contain;
+    height:130px;
+  }
+  .banner_options{
+    display:none;
+  }
+  .bannerSoptions{
+      display:none;
+  }
+  .banner_title{
+    font-size:19px;
+    margin-right: 16px;
+  }
+  /* .banner_overview{
+      display:none;
+  } */
+  .banner_stats{
+      margin-bottom: 20px !important;
+  }
+}
