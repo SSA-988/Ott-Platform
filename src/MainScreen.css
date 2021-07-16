@@ -1,3 +1,185 @@
 .mainscreen{
     cursor: pointer;
 }
+.mainscreen_loki {
+    
+    position: relative;
+
+    object-fit: contain;
+    color: white;
+    cursor: pointer;
+     margin-left: 64px; 
+     margin-right: 40px;
+    margin-bottom: 10px;
+    overflow:scroll;
+}
+.mainscreen_loki > img{
+    border-radius: 13px;
+    height:550px;
+    margin-top: 35px;
+     overflow: scroll; 
+    z-index:50;
+    margin-bottom: 10px; 
+    width: 100%;
+}
+.mainscreen_loki > h2{
+    position: absolute;
+    font-weight: 800;
+    font-size:30px;
+    left:20px !important;
+    top:320px !important;
+}
+.mainscreen_loki > h2 >span{
+    position: absolute;
+    top:5px !important;
+}
+ .mainscreen_scroll{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}  
+.mainscreen_seasons{
+    position: absolute;
+     transition: transform 450ms;
+    top:365px !important;
+    left: 20px !important;
+}
+.mainscreen_seasons>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons2>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons3>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons4>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons5>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons6>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    transition: 0.8s;
+}
+.mainscreen_seasons > img{
+    cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+}
+.mainscreen_seasons > h2{
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+.mainscreen_playIcon{
+    position: absolute;
+    top:126px;
+    left:14px;
+}
+.mainscreen_seasons2{
+    position: absolute;
+    top:365px !important;
+    left: 270px !important;
+}
+.mainscreen_seasons2 > img{
+     cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+    
+}
+.mainscreen_seasons2 > h2{
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+.mainscreen_seasons3{
+    position: absolute;
+    top:365px !important;
+    left: 520px !important;
+}
+.mainscreen_seasons3 > img{
+    cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+}
+.mainscreen_seasons3 > h2{
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+.mainscreen_seasons4{
+      position: absolute;
+    top:365px !important;
+    left:770px !important;
+}
+.mainscreen_seasons4 > img{
+    cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+}
+.mainscreen_seasons4 > h2{
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+.mainscreen_seasons5{
+    position: absolute;
+    top:365px !important;
+    left:1020px !important;
+}
+.mainscreen_seasons5 > img{
+    cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+}
+.mainscreen_seasons5 > h2{
+    position: absolute;
+    top:120px;
+    
+    left:40px;
+}
+.mainscreen_seasons6{
+     position: absolute;
+    top:365px !important;
+    left:1270px !important;
+}
+.mainscreen_seasons6 > img{
+    cursor: pointer;
+    border-radius: 35px ;
+    object-fit:contain;
+    width:230px;
+    height: 200px;
+}
+.mainscreen_seasons6 > h2{
+    position: absolute;
+    top:120px;
+    left:40px;
+}
+@media screen and (max-width:1287px){
+  .mainscreen_loki{
+  display:none;
+  }
+}
