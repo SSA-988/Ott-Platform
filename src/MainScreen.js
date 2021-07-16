@@ -28,16 +28,14 @@ function MainScreen() {
       <Row title="Dark Romance" getUrl={requests.fetchRomanceMovies} />
 
       <div className="mainscreen_loki">
-        <img
-          src="https://www.briflynews.com/sites/default/files/article/2021-05/loki%20poster_0.jpg"
-          alt=""
-        />
+        <img src="https://images6.alphacoders.com/113/1139109.jpg" alt="" />
         <h2>
           Binge Watch Loki Season 1{" "}
           <span>
             <ChevronRightIcon className="mainscreen_icon" fontSize="large" />
           </span>
         </h2>
+        <div className="mainscreen_fadebottom" />
         <div className="mainscreen_scroll">
           <div className="mainscreen_seasons">
             <img
@@ -108,3 +106,4 @@ function MainScreen() {
 }
 
 export default MainScreen;
+//https://images6.alphacoders.com/113/1139109.jpg

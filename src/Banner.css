@@ -216,3 +216,35 @@
       margin-bottom: 20px !important;
   }
 }
+
+/* //last update */
+
+@media  screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px)  { 
+ .banner{
+      height:auto;
+      width:100%;
+      object-fit:contain;
+ }
+}
+
+@media  screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)  { 
+ .banner{
+      height:auto;
+      width:100%;
+      object-fit:contain;
+ }
+}
+
+@media  screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)  { 
+ .banner{
+      height:auto;
+      width:100%;
+      object-fit:contain;
+ }
+}
