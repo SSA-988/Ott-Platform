@@ -15,11 +15,11 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.fetchActionMovies);
+      const request = await axios.get(requests.fetchAll[0]);
       setMovie(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
-        ]
+        ],
       );
     }
     fetchData();

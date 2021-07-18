@@ -20,6 +20,11 @@ function MainScreen() {
         YOU
         getUrl={requests.fetchActionMovies}
       />
+      <Row
+        title="TELUGU ACTION & DRAMA"
+        getUrl={requests.fetchActionTeluguMovies}
+      />
+      <Row title="KANNADA MOVIES" getUrl={requests.fetchKannadaMovies} />
       <Row title="COMEDY MOVIES" getUrl={requests.fetchComedyMovies} />
       <Row
         title=" SUSPENSFUL HORROR MOVIES"
@@ -101,6 +106,13 @@ function MainScreen() {
       <Row title="NOW PLAYING  MOVIES" getUrl={requests.fetchNowPlaying} />
       <Row title="BINGEWORTHY TV SHOWS" getUrl={requests.fetchTv} />
       <Row title="TOP RATED TV SHOWS" getUrl={requests.fetchTopRatedTv} />
+      <Row title="TELUGU MOVIES" getUrl={requests.fetchTeluguMovies} />
+      <Row title="HINDI MOVIES" getUrl={requests.fetchHindiMovies} />
+      <Row title="HINDI LATEST MOVIES" getUrl={requests.fetchHindiLatest} />
+      <Row title="KANNADA 2018" getUrl={requests.fetchKannadaAction} />
+      <Row title="TAMIL BLOCKBUSTERS FOR YOU" getUrl={requests.fetchTamilMovies} />
+      <Row title="MALAYALAM MOVIES" getUrl={requests.fetchMalayalamMovies} />
+      <Row title="KANNADA BLOCKBUSTERS" getUrl={requests.fetchKannadaBlock} />
     </div>
   );
 }

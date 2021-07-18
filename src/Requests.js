@@ -17,6 +17,19 @@ const requests = {
   fetchNowPlaying: `/movie/now_playing?api_key=${API_KEY}&language=en-US`,
   fetchTv: `/tv/popular?api_key=${API_KEY}&language=en-US`,
   fetchTopRatedTv: `/tv/airing_today?api_key=${API_KEY}&language=en-US`,
+  fetchTeluguMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=te&year=2019`,
+  fetchActionTeluguMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=te&year=2020`,
+  fetchHindiMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=hi&year=2019`,
+  fetchHindiLatest: `/discover/movie?api_key=${API_KEY}&with_original_language=hi&year=2021`,
+  fetchKannadaMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=kn&year=2021`,
+  fetchKannadaAction: `/discover/movie?api_key=${API_KEY}&with_original_language=kn&year=2018`,
+  fetchTamilMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=ta&year=2020`,
+  fetchMalayalamMovies: `/discover/movie?api_key=${API_KEY}&with_original_language=ml&year=2021`,
+  fetchKannadaBlock: `/discover/movie?api_key=${API_KEY}&with_original_language=kn&year=2015`,
+  fetchAll: [
+    `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+    `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+  ],
 };
 
 export default requests;
